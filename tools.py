@@ -4,7 +4,7 @@ import os
 
 client = arxiv.Client()
 
-def fetch_arxiv_papers(title: str, max_results: int = 10):
+def fetch_arxiv_papers(title: str, max_results: int):
     """
     Fetches a list of arXiv papers based on the given title.
 
